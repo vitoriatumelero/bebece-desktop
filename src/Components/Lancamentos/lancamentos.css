@@ -1,0 +1,85 @@
+.lancamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha à esquerda */
+    padding: 20px; /* Adiciona espaçamento interno */
+  }
+  
+  .lancamentos p {
+    font-size: 1.5rem; /* Ajusta o tamanho do título */
+    color: #333;
+    text-align: left; /* Mantém o título à esquerda */
+    margin-bottom: 25px;
+  }
+  
+  .lancamentos-peças {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Grid flexível para responsividade */
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .lancamentos-peças .peças {
+    width: 100%;
+    max-width: 230px;
+    text-align: left; /* Alinha o conteúdo à esquerda */
+    font-size: 1.0rem; /* Reduz o tamanho da fonte dos nomes dos sapatos */
+  }
+  .lancamentos-peças .peças p{
+    font-size: 1.0rem; /* Reduz o tamanho da fonte dos nomes dos sapatos */
+    color: #1D1D1D;
+  }
+
+  .lancamentos-peças .peças-preços-novos {
+    font-size: 0.9rem; /* Reduz o tamanho da fonte dos nomes dos sapatos */
+    color: #1D1D1D;
+  }
+  .lancamentos-peças img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lancamentos-peças .peças-preços-velhos {
+    color: #333;
+    text-decoration: line-through;
+    font-size: 0.85rem; /* Ajusta o tamanho do preço antigo */
+  }
+  
+  @media (max-width: 768px) {
+    .lancamentos-peças {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .size-option {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .size-option.selected {
+    background: #b11b26;
+    color: #fff;
+  }
+  

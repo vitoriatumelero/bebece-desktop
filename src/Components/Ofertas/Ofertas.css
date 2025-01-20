@@ -1,0 +1,96 @@
+.ofertas {
+  padding: 20px;
+  margin-top: 20px; /* Espaçamento entre seções */
+  background-color: #fefefe; /* Fundo claro */
+  text-align: center; /* Centraliza o título */
+}
+
+.ofertas-title {
+  font-size: 1.5rem;
+  color: #333; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento entre o título e as imagens */
+  text-align: left;
+  margin: 15px;
+}
+.ofertas-subtitle {
+  font-size: 0.9rem;
+  color: #8A8A8A; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento entre o título e as imagens */
+  text-align: left;
+  margin: 15px;
+  font-style: italic;
+}
+
+.ofertas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 10px; /* Espaçamento entre as imagens */
+  justify-items: center; /* Centraliza os itens na grade */
+  align-items: center;
+  margin: 15px;
+}
+
+.ofertas-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* Reduz o tamanho das imagens para caberem em linha */
+  object-fit: cover; /* Ajusta o conteúdo das imagens sem distorção */
+
+}
+.ofertas-item-title{
+  font-size: 1.2rem;
+  color: #1D1D1D; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento entre o título e as imagens */
+  text-align: left;
+  margin: 15px;
+  font-style: normal;
+
+}
+
+.ofertas-item-title3 {
+  font-size: 1.1rem;
+  color: #1D1D1D; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento entre o título e as imagens */
+  text-align: left;
+  margin: 15px;
+  font-style: normal;
+
+}
+
+.ofertas-item-subtitle{
+  font-size: 0.9rem;
+  color: #8A8A8A; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento entre o título e as imagens */
+  text-align: left;
+  margin: 15px;
+  line-height: 1.5;
+
+}
+
+.ofertas-item-subtitle2{
+  font-size: 0.75rem;
+  color: #8A8A8A; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento entre o título e as imagens */
+  text-align: left;
+  margin: 15px;
+  line-height: 1.2;
+}
+.ofertas-item-subtitle3{
+  font-size: 0.9rem;
+  color: #8A8A8A; /* Cor do título */
+  margin-bottom: 15px; /* Espaçamento entre o título e as imagens */
+  text-align: left;
+  margin: 15px;
+  line-height: 1.5;
+}
+
+
+.saiba-mais {
+  color: #000000; /* Cor do link, ajuste conforme necessário */
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 5px; /* Ajusta o espaçamento superior do link */
+  text-align: left;
+  font-size: 0.9rem;
+  margin-right:75%;
+}

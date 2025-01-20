@@ -1,0 +1,132 @@
+/* Homepage Wrapper */
+.homepage {
+  padding: 10px;
+  background-color: #fff8f4; /* Cor de fundo leve */
+}
+
+/* Categorias */
+.categorias {
+  margin-bottom: 40px;
+}
+
+.categorias h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.categorias-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; /* Aumenta o espaço entre as colunas */
+  align-items: stretch;
+  padding: 0 40px; /* Adiciona margens nas laterais */
+}
+
+.categoria-item {
+  text-align: center;
+}
+
+.categoria-item img {
+  width: 100%;
+  height: 300px; /* Define uma altura fixa para garantir consistência */
+  object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente */
+}
+
+.categoria-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+}
+
+/* Hero Section */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #fdece4;
+  margin-bottom: 40px;
+}
+
+.home-container {
+  display: flex;
+  width: 100%;
+  gap: 15px; /* Espaçamento entre imagem principal e imagem do modelo */
+  align-items: stretch; /* Garante que as imagens tenham a mesma altura */
+}
+
+.home-image {
+  flex: 8;
+}
+
+.home-image img {
+  width: 100%;
+  height: 100%; /* Define altura fixa para manter igual nas duas imagens */
+  object-fit: cover; /* Garante boa proporção */
+}
+
+.model-image {
+  flex: 4;
+}
+
+.model-image img {
+  width: 100%;
+  height: 100%; /* Define altura fixa */
+  object-fit: cover; /* Ajuste da imagem do modelo */
+}
+
+/* lancamentos */
+.lancamentos {
+  margin-bottom: 40px;
+}
+
+.lancamentos h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.lancamentos-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.lancamento-item {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.lancamento-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.lancamento-item p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .categorias-grid, .lancamentos-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+      flex-direction: column;
+  }
+}
+.nome-cat{
+  color: #000000; /* Cor do link, ajuste conforme necessário */
+  text-decoration: none;
+  text-align: left;
+  font-size: 0.8rem;
+  
+}
