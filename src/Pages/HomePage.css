@@ -1,7 +1,7 @@
 /* Homepage Wrapper */
 .homepage {
   padding: 10px;
-  background-color: #fff8f4; /* Cor de fundo leve */
+  background-color: #fff8f4; 
 }
 
 /* Categorias */
@@ -18,9 +18,9 @@
 .categorias-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px; /* Aumenta o espaço entre as colunas */
+  gap: 10px; 
   align-items: stretch;
-  padding: 0 40px; /* Adiciona margens nas laterais */
+  padding: 0 40px; 
 }
 
 .categoria-item {
@@ -29,8 +29,8 @@
 
 .categoria-item img {
   width: 100%;
-  height: 300px; /* Define uma altura fixa para garantir consistência */
-  object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente */
+  height: 300px; 
+  object-fit: cover; 
 }
 
 .categoria-item p {
@@ -54,8 +54,8 @@
 .home-container {
   display: flex;
   width: 100%;
-  gap: 15px; /* Espaçamento entre imagem principal e imagem do modelo */
-  align-items: stretch; /* Garante que as imagens tenham a mesma altura */
+  gap: 15px; 
+  align-items: stretch; 
 }
 
 .home-image {
@@ -64,8 +64,8 @@
 
 .home-image img {
   width: 100%;
-  height: 100%; /* Define altura fixa para manter igual nas duas imagens */
-  object-fit: cover; /* Garante boa proporção */
+  height: 100%; 
+  object-fit: cover; 
 }
 
 .model-image {
@@ -74,8 +74,8 @@
 
 .model-image img {
   width: 100%;
-  height: 100%; /* Define altura fixa */
-  object-fit: cover; /* Ajuste da imagem do modelo */
+  height: 100%; 
+  object-fit: cover; 
 }
 
 /* lancamentos */
@@ -124,7 +124,7 @@
   }
 }
 .nome-cat{
-  color: #000000; /* Cor do link, ajuste conforme necessário */
+  color: #000000; 
   text-decoration: none;
   text-align: left;
   font-size: 0.8rem;

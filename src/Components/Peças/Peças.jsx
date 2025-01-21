@@ -10,18 +10,16 @@ const Peças = (props) => {
   const { addItemToCart } = useContext(CartContext);
 
   const handleCartClick = () => {
-    setShowModal(true); // Abre o modal
+    setShowModal(true); 
   };
 
   const closeModal = () => {
-    setShowModal(false); // Fecha o modal
+    setShowModal(false); 
   };
 
   const addToCart = () => {
-    // Implementar lógica de adicionar ao carrinho
-    // alert(`Produto ${props.name} adicionado ao carrinho!`);
-    addItemToCart(props); // Adiciona a peça ao carrinho
-    setShowModal(false); // Fecha o modal após adicionar
+    addItemToCart(props); 
+    setShowModal(false); 
   };
 
   return (
@@ -42,16 +40,14 @@ const Peças = (props) => {
         )}
       </div>
 
-      {/* Modal */}
+      
       {showModal && (
   <div className="modal-overlay">
     <div className="modal-horizontal">
-      {/* Botão de fechar */}
       <button className="close-modal" onClick={closeModal}>
-        &times; {/* Ícone de fechar */}
+        &times; 
       </button>
       
-      {/* Conteúdo do modal */}
       <div className="modal-image-container">
         <img src={props.image} alt={props.name} className="modal-image" />
       </div>

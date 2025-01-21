@@ -6,32 +6,32 @@
   
   /* Seção Salmão */
   .newsletter-email {
-    background-color: #ffe9dc; /* Cor salmão */
-    padding: 10px 20px; /* Ajuste da altura */
+    background-color: #ffe9dc; 
+    padding: 10px 20px; 
     text-align: center;
     border-radius: 8px;
-    display: flex; /* Organiza os elementos em linha */
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Espaçamento entre os elementos */
+    gap: 10px; 
   }
   
   .newsletter-email h2 {
-    font-size: 0.8rem; /* Reduz o tamanho do texto */
+    font-size: 0.8rem; 
     color: #333;
-    margin: 0; /* Remove a margem inferior */
+    margin: 0; 
   }
   
   .newsletter-email p {
     font-size: 0.8rem;
     color: #B11B26;
-    margin: 0; /* Remove a margem inferior */
+    margin: 0; 
   }
   
   .newsletter-input {
     display: flex;
-    align-items: center; /* Alinha verticalmente no centro */
-    gap: 10px; /* Espaçamento entre input e botão */
+    align-items: center;
+    gap: 10px;
   }
   
   .newsletter-input input {
@@ -57,13 +57,13 @@
   
   /* Seção Vermelha */
   .newsletter-footer {
-    background-color: #b11b26; /* Cor vermelha */
-    padding : 60px 20px; /* Altura aumentada */
+    background-color: #b11b26; 
+    padding : 60px 20px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    flex-wrap: wrap; /* Permite quebra para telas pequenas */
+    flex-wrap: wrap; 
     gap:80px;
     
   }
@@ -79,18 +79,18 @@
   }
   
   .footer-social p {
-    font-size: 1.2rem; /* Ajuste o tamanho da fonte */
+    font-size: 1.2rem; 
     margin-bottom: 10px;
   }
   
   .social-icons {
     display: flex;
-    gap: 15px; /* Aumenta o espaçamento entre os ícones */
+    gap: 15px; 
     justify-content: center;
   }
   
   .social-icons i {
-    font-size: 1.8rem; /* Tamanho maior para ícones */
+    font-size: 1.8rem; 
     cursor: pointer;
   }
   
@@ -128,7 +128,7 @@
     }
   
     .newsletter-email {
-      flex-direction: column; /* Coloca os elementos em coluna para telas pequenas */
+      flex-direction: column; 
       gap: 5px;
     }
   }
